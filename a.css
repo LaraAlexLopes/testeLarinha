@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "poppins",sans-serif;
+	box-sizing: border-box;
+}
+.a{
+	display: flex;
+}
+header{
+	padding: 0 8%;
+	width: 100%;
+	height: 130px;
+	background: black;
+	position: relative;
+}
+.logo{
+	width: 90px;
+	height: 120px;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-links{
+	padding: 10px 0px;
+}
+.nav-links li{
+	display: inline-block;
+	margin:0 15px;
+}
+.nav-links li a{
+	text-decoration: none;
+	position: relative;
+	padding: 5px 0;
+	color: white;
+}
+.nav-links li a::after{
+	content: '';
+	background: gray;
+	width: 0;
+	height: 2px;
+	transition:  width 0.5s;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.nav-links li a:hover::after{
+	width: 100%;
+}
+.bnt{
+	color: white;
+	background: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding:5px 17px ;
+	width: 50px;
+	height: 30px;
+}
+.bnt img{
+	width: 15px;
+	height: 15px;
+}
+.retorno li{
+	display: inline-block;
+	margin-top: 50px;
+	font-size: 13px;
+	font-weight: bolder;
+}
+.retorno li a{
+	text-decoration: none;
+/*	font-weight: 900px;*/
+	position: relative;
+	color: black;
+}
+.retorno li a:hover{
+	text-decoration:underline ;
+	
+}
+.reportagem {
+	display: block;
+	border: solid green;*/
+	margin-top: 50px;
+	background: white;
+	width: 800px;
+}
+.reportagem hr{
+	color: #DAD9D8;
+}
+.reportagem h1{
+	font-size: 50px;
+	margin: 25px 0px 5px 0px;
+}
+.reportagem h3{
+	font-size: 18px;
+	font-weight: bolder;
+	color: black;
+	margin: 5px 0px 5px 0px;
+}
+.reportagem p{
+	font-size: 13px;
+	font-weight: bolder;
+	color: gray;
+	margin: 5px 0px 25px 0px;
+}
+.manchete{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: solid blueviolet;*/
+	width: 400px;
+	height: 100px;
+}
+.manchete h1{
+	margin-left: 30px;
+	margin-bottom: 5px;
+	color: black;
+	font-weight: bolder;
+	font-size: 18px;
+	border: solid red;*/
+}
+.manchete p{
+	margin-left: 30px;
+	border: solid green;*/
+	color: black;
+	font-weight: 600;
+	font-size: 10px;
+}
+.manchete img{
+	height: 100px;
+	width: 150px;
+	border: solid black;
+}
+.lado{
+	border: solid greenyellow;
+	width: 500px;
+	margin-left: 180px;
+	display: inline-block;
+}
+.maisPesquisado{
+	border: solid blue;
+	background: #DAD9D8;
+	width: 100%;
+	height: 560px;
+	position: relative;
+	margin-top: 50px;
+	border-radius: 8px;
+	
+}
+.maisPesquisado h1{
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 10px;
+}
+.maisPesquisado li{
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	list-style: none;
+	margin-left: 20px;
+}
+.maisPesquisado p{
+	font-size: 15px;
+	font-weight: bolder;
+	color: #62605D;
+}
+.maisPesquisado p:hover{
+	color:#31302E;
+	cursor: pointer;
+}

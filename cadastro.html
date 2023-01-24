@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Timão | Notícias</title>
+	<link rel="icon" type="image/png" href="imagens/timao3.png"/>
+	<link rel="stylesheet" type="text/css" href="cadastro.css">
+</head>
+<body>
+	<header><!--INÍCIO DO CABEÇALHO-->
+		<nav class="nav-links">
+			<img src="imagens/timao7.png" class="logo">
+			<div>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="file:///C:/Users/laraa/OneDrive/Imagens/%C3%81rea%20de%20Trabalho/Trabalho%20Final/noticias.html">Notícias</a></li>
+					<li><a href="file:///C:/Users/laraa/OneDrive/Imagens/%C3%81rea%20de%20Trabalho/Trabalho%20Final/jogos.html">Jogos</a></li>
+					<li><a href="file:///C:/Users/laraa/OneDrive/Imagens/%C3%81rea%20de%20Trabalho/Trabalho%20Final/usuario.html?e-mail=&senha=">Ingressos</a></li>
+					 <li class="bnt"><a href="file:///C:/Users/laraa/OneDrive/Imagens/%C3%81rea%20de%20Trabalho/Trabalho%20Final/index.html"><img src="https://icones.pro/wp-content/uploads/2021/06/icone-loupe-noir.png"></a></li>
+				</ul>
+			</div>
+		</nav>
+	</header><!--FIM DO CABEÇALHO-->
+
+	<div class="texto"><!--INÍCIO:CENTRALIZAÇÃO DA PÁGINA(onde o texto vai ficar)-->
+		<div class="molde"><!--INÍCIO:TEXTO DA ESQUERDA-->
+			<div class="reportagem"><!--INÍCIO:TÍTULO DA REPORTAGEM-->
+			<!-- </div><FIM:TÍTULO DA REPORTAGEM-->
+				<div class="manchete"><!--INÍCIO:CADA REPORTAGEM-->
+					<div class="inicio">
+						<div class="alinhar">
+							<h1>criar seu cadastro</h1>
+						<p><span style="color:red;">*</span> campos obrigatorios</p>
+					</div>
+					</div>
+					<div class="principal">
+						<form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+							<h2><span style="color:red;">*</span> nome completo</h2>
+							<input type="name" name="nome">
+							<h2><span style="color:red;">*</span> gênero</h2>
+							<p>pra gente te conhecer um pouquinho melhor :)</p>
+							<div class="radio">
+								<input type="radio" name="genero" value="feminino" id="feminino"><label for="feminino">feminino</label>
+								<input type="radio" name="genero" value="masculino" id="masculino">
+								<label for="masculino">masculino</label>
+								<input type="radio" name="genero" value="naodefinido" id="naodefinido">
+								<label for="naodefinido">não informar</label>
+							</div>	
+							<h2><span style="color:red;">*</span> data de nascimento</h2>
+							<p>necessário pra identificar a maioridade, no formato DD/MM/AAAA</p>
+							<div class="data">
+								<input type="date" id="start" name="trip-start" value="__/__/____" min="1900-01-01" max="2023-12-31">
+							</div>
+							<h2><span style="color:red;">*</span> CPF</h2>
+							<p>necessário pra emissão das Notas Fiscais</p>
+							<div class="cpf">
+								<input type="cpf" name="cpf"placeholder="___.___.___-__">
+							</div>
+							<h2><span style="color:red;">*</span> telefone</h2>
+							<p>caso a gente precise entrar em contato sobre seus pedidos</p>
+							<div class="telefone">
+								<input type="phone" name="telefone" placeholder="(__)9____-____">
+							</div>
+							<h2><span style="color:red;">*</span> e-mail</h2>
+							<p>informe um e-mail válido. Você vai precisar ativar sua conta depois de criar seu cadastro</p>
+							<input type="email" name="e-mail">
+							<h2><span style="color:red;">*</span> senha</h2>
+							<p>precisa ter entre 6 e 20 caracteres</p>
+							<input type="password" name="senha"><br>
+						<div class="alinhar">
+							<button><p>crie seu cadastro</p></button>
+						</div>
+						</form>
+					</div>	
+					<div class="alinhar">
+						<p>Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, você concorda com a nossa <a>política de privacidade</a></p>
+						<p>já tem cadastro?<a href="file:///C:/Users/laraa/OneDrive/Imagens/%C3%81rea%20de%20Trabalho/Trabalho%20Final/usuario.html">entrar</a></p>
+					</div>	
+				</div>
+			</div>
+		</div>
+</div>
+</body>
+</html>

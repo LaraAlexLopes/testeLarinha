@@ -1,0 +1,24 @@
+box-sizing: border-box: o tamanho colocado permanece, nao aumentando a partir do padding ou margin
+	    content-box: o padrão das caixas: o elemento e o padding é somado no tamanho normal
+
+align-itens: a posição dos containers filhos em relação ao container pai
+
+justify-content:onde será localizado os containers filhos e onde serão aplicados os espaços
+
+display:mudar a forma que os containers interajem com a página;
+
+text-decoration: tira a cor roxa e a linha embaixo dos link;
+
+transition:animação no css, ao passar o mouse, geralmente;
+
+border-radius:deixar redondinho bonitinho as pontas;
+
+max-width:largura máxima que o bloco pode assumir;
+
+transform: translate: mudar as cordenadas do bloco/imagem;
+
+outline: praticamente uma borda
+
+cursor: a setinha de pesquisa, da mudar;
+
+min-width: a largura mínima de algum bloco

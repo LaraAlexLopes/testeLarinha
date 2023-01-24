@@ -1,0 +1,918 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "poppins",sans-serif;
+	box-sizing: border-box;
+}
+header{
+	padding: 0 8%;
+	width: 94.938rem;
+	height: 12%;
+	background-image: url("./imagens/fundoIndex2.png");
+	position: relative;
+}
+a{
+	text-decoration: none;
+}hr{
+	color: white;
+}
+.logo{
+	width: 5.625rem;
+	height: 7.5rem
+}
+/*@media only screen and (max-device-width: 900rem) {
+	header { width:600rem; } 
+}*/
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-links{
+	padding: 0.625rem  0rem;
+}
+.nav-links li{
+	display: inline-block;
+	margin:0 0.938rem;
+}
+.nav-links li a{
+	text-decoration: none;
+	position: relative;
+	padding: 0.313rem 0;
+	color: white;
+}
+.nav-links li a::after{
+	content: '';
+	background: gray;
+	width: 0;
+	height: 0.125em;
+	transition:  width 0.5s;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.nav-links li a:hover::after{
+	width: 100%;
+}
+.bnt{
+	color: white;
+	background: white;
+	border-radius: 0.313em;
+	cursor: pointer;
+	padding:0.313em 1.063em;
+	width: 3.125em;
+	height: 1.875rem;
+}
+.bnt img{
+	width: 0.938rem;
+	height: 0.938rem;
+}
+.oi{
+	background:#efefef;
+	position: 0;
+	width: 95rem;
+}
+.linkPrincipal{
+	display: flex;
+	padding-left: 0.188rem;
+/*	border: solid green;*/
+	height: 33.75rem;
+	width: 95rem;
+}
+.linkPrincipal img{
+	border: solid 0.200rem black;
+	width: 47.313rem;
+	height: 34.375rem;
+}
+.img1{
+/*	display: flex;*/
+/*	border: solid red;*/
+	margin-top: 0rem;
+	max-height: 35.625em;
+	height: auto;
+
+}
+.img1 img{
+	transition: transform .2s;
+}
+.img1 img:hover{
+	border: solid black;
+	transform: scale(1.01); 
+}
+.molde a{
+	color: black;
+}
+.img1Texto{
+	margin-top: 0rem;
+	position: relative;
+	bottom: 7.5rem;
+	width: 31.25rem;
+	left: 8.125rem;
+	height: 7.188rem;
+	align-items: center;
+/*	text-align: center;*/
+	background: black;
+	opacity: 80%;
+}
+.img1Texto h1{
+	color: gray;
+	font-size: 1.25rem;
+	padding: 0.625rem 0.625rem 0 0.625rem;
+}
+.img1Texto p{
+	color: gray;
+	font-size: 0.625rem;
+	padding: 0 0.625rem 0.625rem 0.625rem;
+}
+.img2{
+/*	display: flex;*/
+/*	border: solid red;*/
+	margin-top: 0;
+	max-height: 35.62em;
+	height: auto;
+}
+.img2 img:hover{
+	border: solid black;
+	transform: scale(1.01); 
+}
+.quadro{
+	display: flex;
+	position: relative;
+/*	border: solid green;*/
+	align-items: center;
+/*	background-image: url('./imagens/fundo5.png');*/
+	height: 8.125rem;
+	width:95rem ;
+	margin-top: 0;
+	justify-content: space-between;
+}
+.quadro1{
+	display: flex;
+/*	border: solid red;*/
+/*	margin-left: 50rem;*/
+	margin: 1.25rem;
+	height: 6.25rem;
+	width: 56.25rem;
+	background-image: url('./imagens/fundo8.png');
+/*	margin-top: 10rem;*/
+}
+.quadro1 p{
+	display: block;
+	color: black;
+	position: relative;
+	font-weight: 37.5rem;
+	font-size: 0.625rem;
+	top: 0.938rem;
+	margin-left: 0.313rem;
+/*	border: solid yellow;*/
+}
+.quadro h1{
+/*	border: solid blue;*/
+/*	margin-top: 5rem;*/
+	font-size: 0.938rem;
+	position: relative;
+	bottom: 0.625rem;
+	font-weight: bolder;
+	margin-left: 0.938rem;
+	margin-right: 3.125rem;
+}
+.quadro1 img{
+	position: relative;
+	width: 6.25rem;
+	height:6.25rem;
+	margin-left: 21.875rem;
+}
+.quadro2{
+	display: flex;
+/*	border: solid green;*/
+	margin: 1.25rem;
+	height: 6.25rem;
+	width: 62.5rem;
+	background-image: url('./imagens/fundo8.png');
+}
+.quadro2 p{
+	display: block;
+	color: black;
+	position: relative;
+	font-weight: 37.5rem;
+	font-size: 0.625rem;
+	top: 0.938rem;
+/*	margin-left: 5rem;*/
+	margin-left: 6.25rem;
+/*	border: solid yellow;*/
+}
+.quadro h2{
+	display: inline;
+/*	border: solid blue;*/
+}
+.quadro2 img{
+	position: relative;
+	width: 6.25rem;
+	height: 6.25rem;
+	margin-left: 5rem;
+}
+.texto {
+	margin: 1.25rem 12.5rem 1.25rem 12.5rem;
+/*	width: 600rem;*/
+/*	border: solid darkred;*/
+	display: flex;
+}
+.molde{
+/*	display: block;*/
+	width: 75rem;
+/*	height: 1200rem;*/
+/*	border: solid blue;*/
+
+}
+.posicao{
+	display: flex;
+}
+.classificação{
+	padding: 0.5rem;
+	box-sizing: border-box;
+/*	border: solid red;*/
+	background: gray;
+	height: 18.75rem;
+}
+.manchete{
+/*	display: flex;*/
+	margin-top: 1.25rem;
+	margin-bottom: 2.5rem;
+/*	border: solid red;*/
+	/*width: 800rem;
+	height: 100rem;*/
+}
+.manchete h1{
+	margin-left: 0.313rem;
+	margin-bottom: 0.313rem;
+	color:#4A4A4A;
+	font-weight: bolder;
+	font-size: 1.125rem;
+/*	border: solid red;*/
+}
+.manchete p{
+	margin-left: 0.313rem;
+/*	border: solid green;*/
+	color: black;
+	font-weight: 37.5rem;
+	font-size: 0.625rem;
+}
+.manchete img{
+	height: 31.25rem;
+	width: 34.375rem;
+	margin-left: 0.313rem;
+	border: solid black;
+}
+
+.classificação p{
+	text-align: center;
+}
+
+.reportagem {
+/*	display: block;*/
+	border: solid green;*/
+	margin-top: 3.125rem;
+	background: white;
+	width: 50rem;
+}
+
+.reportagem hr{
+	color: #DAD9D8;
+}
+.reportagem h1{
+	font-size: 3.125rem;
+	margin: 1.563rem 0rem 0.313rem 0rem;
+}
+.reportagem h3{
+	font-size: 1.125rem;
+	font-weight: bolder;
+	color: black;
+	margin: 0.313rem 0rem 0.313rem 0rem;
+}
+.reportagem p{
+	font-size: 0.813rem;
+	font-weight: bolder;
+	color: gray;
+	margin: 0.313rem 0rem 0.313rem 0rem;
+}
+
+.patrocinadores{
+/*	border: solid/*/
+	width: auto;
+	padding-bottom:1.25rem ;
+	margin: 3.125rem 0rem 0rem 0rem;
+	justify-content: space-between;
+}
+.patrocinadores img{
+/*	position: relative;*/
+	width: 6.25rem;
+	height: 4.688rem;
+}
+.fila1 img{
+	margin-left: 28rem;
+/*	border: solid black;*/
+}
+.fila2{
+/*	border: solid red;*/
+	margin-bottom: 3.125rem;
+}
+.fila2 img{
+	margin-left: 14.063rem;
+/*	border: solid green;*/
+}
+.fila3 img{
+	margin-left: 42rem;
+/*	border: solid blue;*/
+}
+.fila1{
+	align-items: center;
+/*	border: solid red;*/
+	display: flex;
+}
+.chamada{
+	display: block;
+}
+h2{
+	margin-top: 1.563rem;
+/*	border: solid;*/
+	color: black;
+	margin-right: 3.438rem;
+	text-align: center;
+	font-size: 0.938rem;
+}
+.rodape{
+	display: block;
+	width: 100%;
+/*	border:solid red;*/
+	height: 7.5rem;
+	align-items: center;
+	justify-content: center;
+}
+.rodape-links{
+	display: block;
+/*	border: solid green;*/
+	padding: 0.313rem;
+	width: 81.25rem;
+	margin-left: 6.875rem;
+}
+.rodape-links img{
+	width: 3.125rem;
+	height: 3.125rem;
+}
+.rodape-links li{
+	display: inline-block;
+	margin-left: 7.5rem;
+	margin-top: 0.625rem;
+	justify-content: center;
+	align-items: center;
+}
+.rodape-links p{
+	font-size: 1.125rem;
+	font-weight: bolder;
+	color:#4A4A4A;
+}
+.fim{
+	width: 94.938rem;
+	height: 6.25rem;
+	background: black;
+	color: white;
+	align-items: center;
+}
+.fim p{
+	margin-left: 6.875rem;
+	padding: 0.625rem;
+	text-align: center;
+}
+.tamanho{
+	width: 100%;
+}
+
+/*NOTÍCIAS INDIVIDUAL NOTÍCIAS INDIVIDUAL NOTICIA INDIVIDUAL*/
+
+.mancheteIndividual{
+	display: block;
+	margin-top: 1.875rem;
+	margin-bottom: 1.875rem;
+	width: 45.625rem;
+/*	border: solid red;*/
+}
+.mancheteIndividual h1{
+	margin-left: 1.875rem;
+	margin-bottom: 0.313rem;
+	color: black;
+	font-weight: bolder;
+	font-size: 1.125rem;
+/*	border: solid red;*/
+}
+.mancheteIndividual h4{
+	margin-bottom: 0.313rem;
+	color:#2D2C29;
+	font-weight: bolder;
+	font-size: 0.938rem;
+/*	border: solid red;*/
+}
+.mancheteIndividual p{
+/*	border: solid green;*/
+	color:#2D2C29;
+	font-size: 0.938rem;
+	/*padding-bottom: 18rems;
+	padding-top: 18rem;*/
+	margin-top: 0.625rem;
+}
+.imgIndividual img{
+	width:43.75rem ;
+	height: 24.625rem;
+}
+.reportagemIndividual {
+	display: block;
+/*	border: solid green;*/
+	margin-top: 3.125rem;
+	background: white;
+}
+.reportagemIndividual hr{
+	color: #DAD9D8;
+}
+.patrocinadores hr{
+	width: 94.938rem;
+}
+.reportagemIndividual h1{
+	font-size: 3.125rem;
+	margin: 1.563rem 0rem 0.313rem 0rem;
+}
+.reportagemIndividual h3{
+	font-size: 1.125rem;
+	font-weight: bolder;
+	color: black;
+	margin: 0.313rem 0rem 0.313rem 0rem;
+}
+.reportagemIndividual p{
+	font-size: 0.813rem;
+	font-weight: bolder;
+	color: gray;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+/
+}
+.reportagemIndividual li{
+	display: inline-block;
+}
+.reportagemIndividual ul{
+/*	border: solid red;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.reportagemIndividual  img{
+	width: 1.563rem;
+	height: 1.563rem;
+	margin-right: 0.625rem;
+	margin-left: 0.313rem;
+}
+.textoIndividual {
+	margin: 1.25rem 7.5rem 1.25rem 7.5rem;
+/*	border: solid green;*/
+}
+.compartilhamento{
+	display: flex;
+/*	border: solid ;*/
+	justify-content: space-between;
+}
+.rodape-linksIndividual p{
+	font-size: 1.125rem;
+	font-weight: bolder;
+	color: grey;
+}
+.rodape-linksIndividual img{
+	width: 3.125rem;
+	height: 3.125rem;
+}
+.rodape-linksIndividual li{
+	display: inline-block;
+	margin-left: 7.5rem;
+	margin-top: 0.625rem;
+	justify-content: center;
+	align-items: center;
+}
+.rodape-linksIndividual p{
+	font-size: 1.125rem;
+	font-weight: bolder;
+	color: grey;
+}
+.chamada{
+	display: block;
+}
+.retornoIndividual li{
+	display: inline-block;
+	margin-top: 3.125rem;
+}
+.retornoIndividual li a{
+	text-decoration: none;
+/*	font-weight: 900rem;*/
+	font-size: 0.75rem;
+	font-weight: bolder;
+	position: relative;
+	color: black;
+}
+.retornoIndividual li p{
+	text-decoration: none;
+/*	font-weight: 900rem;*/
+	font-size: 0.75rem;
+	font-weight: bolder;
+	position: relative;
+	color: gray;
+}
+.retornoIndividual li a:hover{
+	text-decoration:underline ;
+	
+}
+
+/*JOGOS CENTRAL JOGOS CENTRAL JOGOS CENTRAL*/
+
+.textoJogos {
+	margin: 1.25rem 7.5rem 1.25rem 7.5rem;
+/*	border: solid darkred;*/
+}
+.moldeJogos{
+	display: block;
+/*	border: solid green;*/
+
+}
+.retornoJogos li{
+	display: inline-block;
+	margin-top: 3.125rem;
+}
+.retornoJogos li a{
+	text-decoration: none;
+/*	font-weight: 900rem;*/
+	font-size: 0.938rem;
+	font-weight: bolder;
+	position: relative;
+	color: black;
+}
+.retornoJogos li p{
+/*	font-weight: 900rem;*/
+	font-size: 0.938rem;
+	font-weight: bolder;
+	position: relative;
+	color: black;
+}
+.retornoJogos li a:hover{
+	text-decoration:underline ;
+	
+}
+.quadroJogos{
+	display: flex;
+	position: relative;
+/*	border: solid green;*/
+	margin-left: 3.125rem;
+/*	margin-right: 50rem;*/
+	background-image: url('./imagens/fundo5.png');
+	height: 7.5rem;
+	width: 62.5rem;
+	justify-content: space-between;
+}
+.quadro1Jogos{
+	display: flex;
+/*	border: solid red;*/
+/*	margin-left: 50rem;*/
+	height: 6.25rem;
+	width: 62.5rem;
+	margin-top: 1.25rem;
+}
+.estadioJogos{
+/*	border: solid;*/
+	width: 15.625rem;
+	height: 7.5rem;
+	background-image: url('./imagens/fundo5.png');
+}
+.quadro1Jogos p{
+	display: block;
+	color: black;
+	position: relative;
+	font-weight: 37.5rem;
+	font-size: 0.625rem;
+	top: 0.938rem;
+	margin-left: 0.313rem;
+/*	border: solid yellow;*/
+}
+.quadroJogos h1{
+	position: relative;
+	top: 0.313rem;
+	font-weight: bolder;
+	margin-left: 2.813rem;
+	margin-right: 3.125rem;
+}
+.reportagemJogos{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+/*	border: solid red;*/
+	
+}
+.quadro2Jogos{
+	display: flex;
+/*	border: solid green;*/
+	margin-left: 3.125rem;
+	height: 6.25rem;
+	width: 62.5rem;
+	margin-top: 1.25rem;
+}
+.quadro2Jogos p{
+	display: block;
+	color: black;
+	position: relative;
+	font-weight: 37.5rem;
+	font-size: 0.938rem;
+	top: 0.938rem;
+	margin-left: 0.313rem;
+/*	border: solid yellow;*/
+}
+.quadroJogos h1{
+/*	border: solid blue;*/
+	margin-top: 1.875rem;
+	font-size: 1.125rem;
+}
+.quadro1Jogos img{
+	position: relative;
+	width: 4.375rem;
+	height: 4.375rem;
+	margin-left: 12.5rem;
+}
+.mancheteJogos h1{
+	color:#4A4A4A;
+/*	border:solid green;*/
+	font-weight: 37.5rem;
+	font-size: 0.938rem;
+	font-weight: bolder;
+	padding: 0.5rem 0rem 0.5rem 3.125rem;
+}
+.quadro2Jogos img{
+	width: 4.375rem;
+	height: 4.375rem;
+	margin-left:0rem;
+}
+.principalJogos{
+	display: flex;
+/*	border: solid;*/
+	margin-right: 3.125rem;
+}
+.informacaoPrincipalJogos{
+	display: inline;
+}
+.informacaoPrincipalJogos p{
+/*	border: solid;*/
+	background-image: url('./imagens/fundo6.1.png');
+	width: 73.75rem;
+	margin-left: 3.125rem;
+	text-align: center;
+	height: 2.5rem;
+}
+.informacaoPrincipalJogos p:hover{
+/*	border: solid;*/
+	background: gray;
+	background-image: url('./imagens/fundo6.png');
+	width: 73.75rem;
+	margin-left: 3.125rem;
+	text-align: center;
+	height: 2.5rem;
+}
+.mancheteJogos{
+/*	display: flex;*/
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+/*	border: solid ;*/
+/*	width: 800rem;*/
+	
+}
+.mancheteJogos p{
+	color: gray;
+	font-weight: 37.5rem;
+	font-size: 0.875rem;
+	font-weight: bolder;
+	padding: 0.5rem;
+}
+.chamadaJogos{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+.rodapeJogos{
+	display: block;
+	width: 100%;
+/*	border:solid red;*/
+	height: 7.5rem;
+	align-items: center;
+	justify-content: center;
+}
+.rodape-linksJogos{
+/*	border: solid green;*/
+	padding: 0.313rem;
+	width: 100%;
+}
+.rodape-linksJogos img{
+	width: 3.125rem;
+	height: 3.125rem;
+}
+.rodape-linksJogos li{
+	display: inline-block;
+	margin-left: 7.5rem;
+	margin-top: 0.625rem;
+	justify-content: center;
+	align-items: center;
+}
+.rodape-linksJogos p{
+	font-size: 1.125rem;
+	font-weight: bolder;
+	color:#4A4A4A;
+}
+
+/*NOTÍCIA NOTÍCIA NOTÍCIA NOTÍCIA NOTÍCIA*/
+
+.textoInicial {
+	margin: 1.25rem 7.5rem 1.25rem 7.5rem;
+/*	border: solid darkred;*/
+	display: flex;
+}
+.moldeInicial{
+	display: block;
+/*	border: solid green;*/
+
+}
+.retornoInicial li{
+	display: inline-block;
+	margin-top: 3.125rem;
+	margin-bottom: 1.563rem;
+}
+.retornoInicial li a{
+	text-decoration: none;
+/*	font-weight: 900rem;*/
+	font-size: 0.938rem;
+	font-weight: bolder;
+	position: relative;
+	color: black;
+}
+.retornoInicial li p{
+/*	font-weight: 900rem;*/
+	font-size: 0.938rem;
+	font-weight: bolder;
+	position: relative;
+	color: black;
+}
+.retornoInicial li a:hover{
+	text-decoration:underline ;
+	
+}
+.mancheteInicial{
+	display: flex;
+	margin-top: 1.25rem;
+	margin-bottom: 2.5rem;
+/*	border: solid red;*/
+	width: 50rem;
+	height: 6.25rem;
+}
+.mancheteInicial h1{
+	margin-left: 1.875rem;
+	margin-bottom: 0.313rem;
+	color:#4A4A4A;
+	font-weight: bolder;
+	font-size: 1.125rem;
+/*	border: solid red;*/
+}
+.mancheteInicial p{
+	margin-left: 1.875rem;
+/*	border: solid green;*/
+	color: black;
+	font-weight: 600;
+	font-size: 0.625rem;
+}
+.mancheteInicial img{
+	height: 6.25rem;
+	width: 9.375rem;
+	border: solid black;
+}
+.chamadaInicial{
+	display: block;
+}
+.ladoInicial{
+/*	border: solid blue;*/
+	width: 31.25rem;
+	margin-top: 5rem;
+	margin-left: 11.25rem;
+	display: inline;
+}
+.ladoInicial li{
+	display: flex;
+/*	border: solid red;*/
+	margin-left: 0.313rem;
+}
+.ladoInicial li p{
+	display: block;
+/*	border: solid;*/
+}
+.ladoInicial li img{
+	position: relative;
+/*	border: solid;*/
+	width: 1.563rem;
+	height: 1.563rem;
+	top: 0.313rem;
+	right: 0.5rem;
+	display: block;
+}
+.maisPesquisadoInicial{
+	padding: 0.313rem;
+	background-image: url('./imagens/fundo5.png');
+	width: 100%;
+	height: 35rem;
+	position: relative;
+	margin-top: 3.125rem;
+	border-radius: 0.5rem;
+	
+}
+.maisPesquisadoInicial h1{
+	font-size: 1.125rem;
+	font-weight: bolder;
+	padding: 0.625rem;
+}
+.maisPesquisadoInicial li{
+	padding: 0.625rem;
+	margin-top: 1.438rem;
+	margin-bottom: 2.5rem;
+	list-style: none;
+	margin-left: 1.25rem;
+}
+.maisPesquisadoInicial p{
+	font-size: 0.938rem;
+	font-weight: bolder;
+	color: #62605D;
+}
+.maisPesquisadoInicial p:hover{
+	color:#31302E;
+	cursor: pointer;
+}
+.maisPesquisado2Inicial{
+	padding:0.313rem;
+	background-image: url('./imagens/fundo5.png');
+	width: 100%;
+	height: 37rem;
+	position: relative;
+	margin-top: 3.125rem;
+	border-radius: 0.5rem;
+}
+.maisPesquisado2Inicial h1{
+	font-size: 1.125rem;
+	font-weight: bolder;
+	padding: 0.625rem;
+	margin-left: 0.313rem;
+}
+.maisPesquisado2Inicial p{
+	font-size: 0.75rem;
+	font-weight: bolder;
+	color: black;
+	margin-left: 0.313rem;
+}
+.jogosInicial{
+/*	border: solid;*/
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	height: 7.5rem;
+}
+.fraseInicial{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 0.313rem;
+	margin-right: 0.5rem;
+}
+.jogosInicial p{
+	margin-top: 0.188rem;
+	font-size: 0.75rem;
+	display: inline-block;
+/*	border: solid green;*/
+}
+.jogosInicial h3{
+	font-size: 0.875rem;
+	color: grey;
+/*	margin-right: 70rem;*/
+/*	border: solid green;*/
+	display: inline-block;
+}
+.jogosInicial img{
+/*	margin-left: 5rem;*/
+	height: 3.125rem;
+	width: 3.125rem;
+/*	border: solid;*/
+}
+.frase2Inicial{
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 0.125rem;
+	text-align: center;
+}
+
+.imgInicial{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0.5rem;
+/*	border: solid red;*/
+	justify-content: space-evenly;
+}

@@ -1,0 +1,273 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "poppins",sans-serif;
+	box-sizing: border-box;
+}
+header{
+	padding: 0 8%;
+	width: 100%;
+	height: 130px;
+	background: black;
+	position: relative;
+}
+.molde h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.logo{
+	width: 90px;
+	height: 120px;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-links{
+	padding: 10px 0px;
+}
+.nav-links li{
+	display: inline-block;
+	margin:0 15px;
+}
+.nav-links li a{
+	text-decoration: none;
+	position: relative;
+	padding: 5px 0;
+	color: white;
+}
+.nav-links li a::after{
+	content: '';
+	background: gray;
+	width: 0;
+	height: 2px;
+	transition:  width 0.5s;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.nav-links li a:hover::after{
+	width: 100%;
+}
+.bnt{
+	color: white;
+	background: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding:5px 17px ;
+	width: 50px;
+	height: 30px;
+}
+.bnt img{
+	width: 15px;
+	height: 15px;
+}
+.texto {
+	margin: 20px 120px 20px 120px;
+/*	border: solid darkred;*/
+}
+.molde{
+	display: block;
+/*	border: solid green;*/
+
+}
+.retorno li{
+	display: inline-block;
+	margin-top: 50px;
+}
+.retorno li a{
+	text-decoration: none;
+/*	font-weight: 900px;*/
+	font-size: 15px;
+	font-weight: bolder;
+	position: relative;
+	color: black;
+}
+.retorno li p{
+/*	font-weight: 900px;*/
+	font-size: 15px;
+	font-weight: bolder;
+	position: relative;
+	color: black;
+}
+.retorno li a:hover{
+	text-decoration:underline ;
+	
+}
+.quadro{
+	display: flex;
+	position: relative;
+/*	border: solid green;*/
+	margin-left: 50px;
+/*	margin-right: 50px;*/
+	background-image: url('./imagens/fundo5.png');
+	height: 120px;
+	width: 1000px;
+	justify-content: space-between;
+}
+.quadro1{
+	display: flex;
+/*	border: solid red;*/
+/*	margin-left: 50px;*/
+	height: 100px;
+	width: 1000px;
+	margin-top: 20px;
+}
+.estadio{
+/*	border: solid;*/
+	width: 250px;
+	height: 120px;
+	background-image: url('./imagens/fundo5.png');
+}
+.quadro1 p{
+	display: block;
+	color: black;
+	position: relative;
+	font-weight: 600px;
+	font-size: 10px;
+	top: 15px;
+	margin-left: 5px;
+/*	border: solid yellow;*/
+}
+.quadro h1{
+	position: relative;
+	top: 5px;
+	font-weight: bolder;
+	margin-left: 45px;
+	margin-right: 50px;
+}
+.reportagem{
+	padding-top: 3px;
+	padding-bottom: 3px;
+/*	border: solid red;*/
+	
+}
+.quadro2{
+	display: flex;
+/*	border: solid green;*/
+	margin-left: 50px;
+	height: 100px;
+	width: 1000px;
+	margin-top: 20px;
+}
+.quadro2 p{
+	display: block;
+	color: black;
+	position: relative;
+	font-weight: 600px;
+	font-size: 15px;
+	top: 15px;
+	margin-left: 5px;
+/*	border: solid yellow;*/
+}
+.quadro h1{
+/*	border: solid blue;*/
+	margin-top: 30px;
+	font-size: 18px;
+}
+.quadro1 img{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	margin-left: 200px;
+}
+.manchete h1{
+	color:#4A4A4A;
+/*	border:solid green;*/
+	font-weight: 600px;
+	font-size: 15px;
+	font-weight: bolder;
+	padding: 8px 0px 8px 50px;
+}
+.quadro2 img{
+	width: 70px;
+	height: 70px;
+	margin-left:0px;
+}
+.principal{
+	display: flex;
+/*	border: solid;*/
+	margin-right: 50px;
+}
+.informacaoPrincipal{
+	display: inline;
+}
+.informacaoPrincipal p{
+/*	border: solid;*/
+	background-image: url('./imagens/fundo6.png');
+	width: 1180px;
+	margin-left: 50px;
+	text-align: center;
+	height: 40px;
+}
+.informacaoPrincipal p:hover{
+/*	border: solid;*/
+	background: gray;
+	background-image: url('./imagens/fundo6.1.png');
+	width: 1180px;
+	margin-left: 50px;
+	text-align: center;
+	height: 40px;
+}
+.manchete{
+/*	display: flex;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+/*	border: solid ;*/
+/*	width: 800px;*/
+	
+}
+.manchete p{
+	color: gray;
+	font-weight: 600px;
+	font-size: 14px;
+	font-weight: bolder;
+	padding: 8px;
+}
+.chamada{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+.rodape{
+	display: block;
+	width: 100%;
+/*	border:solid red;*/
+	height: 120px;
+	align-items: center;
+	justify-content: center;
+}
+.rodape-links{
+/*	border: solid green;*/
+	padding: 5px;
+	width: 100%;
+}
+.rodape-links img{
+	width: 50px;
+	height: 50px;
+}
+.rodape-links li{
+	display: inline-block;
+	margin-left: 120px;
+	margin-top: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.rodape-links p{
+	font-size: 18px;
+	font-weight: bolder;
+	color:#4A4A4A;
+}
+.fim{
+	width: 100%;
+	height: 100px;
+	background: black;
+	color: white;
+	align-items: center;
+}
+.fim p{
+	margin-left: 110px;
+	padding: 10px;
+}

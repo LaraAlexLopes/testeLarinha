@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "poppins",sans-serif;
+	box-sizing: border-box;
+}
+header{
+	padding: 0 8%; /*8% em relação a largura do cabeçalho*/
+	width: 100%;
+/*	height: 100px;*/
+	background-image: url("./imagens/fundoIndex2.png");
+	opacity: 0.5;
+/*	border: solid green;*/
+	position: relative; /*aceita as características normais e pode alterar o top bottom a partir dela*/
+}
+.logo{
+	width: 110px;
+	height: 140px;
+}
+
+nav{
+/*	border: solid red;*/
+	display: flex; /*elementos um do lado do outro pode manipular com caracteristicas novas*/
+	align-items: center; /* no centro da horizontal */
+	justify-content:space-between ; /*espaço entre as tag*/
+}
+.nav-links{
+	padding: 28px 0px; /*No bloco dos tópicos*/
+/*	border: green solid;*/
+}
+
+.nav-links li{
+	display: inline-block;/*as linhas se comportam como blocos*/
+	margin: 0px 15px;/*em relação a posição inicial*/
+/*	border: solid red;*/
+}
+.nav-links li a{
+	text-decoration: none;
+	padding: 5px 0;
+	position: relative;
+	color: white;
+/*	border: solid green;*/
+}
+.nav-links li a::after{
+	content:'';/*escrita que não tem no teclado*/
+	background: gray;/*Cor do Riscado*/
+	width: 0;
+	height: 2px;
+	position: absolute;
+	bottom: 0;/*distância do bloco de link*/
+	left: 0;
+	transition: width 0.5s;/*aparecer o desejado*/
+}
+.nav-links li a:hover::after{
+	width: 100%;
+}
+.bnt{
+	color: white;
+	background: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding:5px 17px ;
+	width: 50px;
+	height: 30px;
+}
+.bnt img{
+	width: 15px;
+	height: 15px;
+}
+.content{
+/*	border: solid red;*/
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 90%;
+	max-width: 900px;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	padding-top:50px ;
+
+}
+a{
+	text-decoration: none;
+}
+.posicao{
+	display: flex;
+}
+.content h1{
+	font-size: 50px;
+	font-weight:600;
+	margin-bottom: 40px;
+	color: white;
+/*	text-shadow: 1px 1px 1px 1px;*/
+}
+.content form{
+	background: black;
+	padding: 10px;
+	border-radius: 8px;
+	display: flex;
+}
+.content form input{
+	flex: 1;
+	border: none;
+	outline: none;
+	padding: 0 20px;
+	font-size: 18px;
+	background: black;
+	color: white;
+}
+.content form button{
+	background: grey;
+	padding: 15px 40px;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+}
+.category-list{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+.category{
+	width:80px ;
+	height: 80px;
+	background-image: url("./imagens/fundoIndex2.png");
+	margin:0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+}
+.category3{
+	width:400px ;
+	height: 70px;
+	background-image: url("./imagens/fundoIndex2.png");
+	margin:0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+}
+.category3 h2{
+	color: white;
+	font-size: 1.563rem;
+	padding: 0.5rem;
+}
+.category img {
+	width: 72px;
+	height: 60px;
+
+}
+.back-video{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -200;
+}
+/*.timao{
+	width: 100px;
+	height: 150px;
+	background: white;
+}*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+

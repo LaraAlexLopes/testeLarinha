@@ -1,0 +1,226 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "poppins",sans-serif;
+	box-sizing: border-box;
+}
+header{
+	padding: 0 8%;
+	width: 100%;
+	height: 130px;
+	background: black;
+	position: relative;
+}
+.molde h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.logo{
+	width: 90px;
+	height: 120px;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-links{
+	padding: 10px 0px;
+}
+.nav-links li{
+	display: inline-block;
+	margin:0 15px;
+}
+.nav-links li a{
+	text-decoration: none;
+	position: relative;
+	padding: 5px 0;
+	color: white;
+}
+.nav-links li a::after{
+	content: '';
+	background: gray;
+	width: 0;
+	height: 2px;
+	transition:  width 0.5s;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.nav-links li a:hover::after{
+	width: 100%;
+}
+.bnt{
+	color: white;
+	background: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding:5px 17px ;
+	width: 50px;
+	height: 30px;
+}
+.bnt img{
+	width: 15px;
+	height: 15px;
+}
+.texto {
+	width: 550px;
+	margin: 50px 500px 20px 500px;
+/*	border: solid darkred;*/
+	display: flex;
+}
+.molde{
+	display: block;
+	position: relative;
+	align-items: center;
+/*	border: solid green;*/
+}
+.reportagem{
+	padding-top: 3px;
+	padding-bottom: 3px;
+/*	border: solid red;*/
+	color:#545454;
+/*	background: #E8E8E8;*/
+}
+.reportagem p{
+	margin-left: 8px;
+	font-size: 13px;
+	margin-top: 5px;
+	font-weight: bolder;
+}
+.principal{
+/*	border: solid green;*/
+	
+}
+.principal input{
+	width: 315px;
+	height: 43px;
+	border-radius: 10px;
+	border: solid 1px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	padding-left: 5px;
+/*	border: solid green;*/
+}
+.radio{
+	display: flex;
+/*	width: 20px;*/
+	justify-content: space-between;
+/*	border: solid red;*/
+}
+.radio input{
+	width: 20px;
+}
+.data input{
+	margin-top: 5px;
+	height: 43px;
+/*	border: solid;*/
+	width: 105px;
+	color: gray;
+	font-weight: bolder;
+	margin-left: 5px;
+}
+.cpf input{
+	margin-top: 5px;
+	width: 130px;
+	padding: 5px;
+	color: gray;
+	font-weight: bolder;
+	margin-left: 5px;
+}
+.telefone input{
+	margin-top: 5px;
+	width: 130px;
+	padding: 5px;
+	color: gray;
+	font-weight: bolder;
+	margin-left: 5px;
+}
+.radio label{
+	margin-right: 75px;
+	font-size: 14px;
+	padding-top: 10px;
+	color: gray;
+}
+button{
+	margin-top: 13px;
+	width: 100%;
+	height: 43px;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 10px;
+	background:#DADADA;
+}
+.manchete a{
+	color: gray;
+}
+.manchete a:hover{
+	text-decoration: underline;
+}
+button p{
+	color: gray;
+	font-size: 15px;
+}
+button:hover{
+	margin-top: 13px;
+	width: 100%;
+	height: 43px;
+	border-radius: 10px;
+	border: none;
+/*	background: black;*/
+	opacity: 90%;
+}
+.manchete{
+/*	display: flex;*/
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+/*	border: solid ;*/
+/*	width: 800px;*/
+	
+}
+.manchete h2{
+	margin-left: 5px;
+	font-size: 15px;
+/*	font-weight: 0px;*/
+	color:#545454;
+	
+}
+.manchete h1{
+	font-size: 30px;
+	text-align: center;
+/*	font-weight: 0px;*/
+	color:#4A4A4A;
+	
+}
+.inicio{
+	margin-bottom: 20px;
+}
+.manchete p{
+	color:#7C7B7B;
+	font-weight: 100px;*/
+/*	font-size: 65px;*/
+/*	font-weight: bolder;*/
+	padding: 5px;
+}
+.alinhar{
+	text-align: center;
+}
+.alinhar button p{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.fim{
+	width: 100%;
+	height: 100px;
+	background: black;
+	color: white;
+	align-items: center;
+}
+.fim p{
+	margin-left: 110px;
+	padding: 10px;
+	text-align: center;
+}
